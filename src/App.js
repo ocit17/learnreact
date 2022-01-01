@@ -8,9 +8,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path='/' element={<AllMeetupsPage/>} />
-        <Route path='new-meetups' element={<NewMeetupPage/>} />
-        <Route path='favorites' element={<FavoritesPage/>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} element={<AllMeetupsPage/>} />
+        <Route exact path='new-meetups' element={<NewMeetupPage/>} />
+        <Route exact path='favorites' element={<FavoritesPage/>} />
       </Routes>
     </Layout>
   );

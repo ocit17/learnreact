@@ -8,7 +8,7 @@ import { FavoritesContextProvider } from './store/favorites-context';
 
 ReactDOM.render(
     <FavoritesContextProvider>
-        <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
+        <BrowserRouter>
             <App />
         </BrowserRouter>
     </FavoritesContextProvider>,
