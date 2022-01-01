@@ -9,8 +9,8 @@ function App() {
     <Layout>
       <Routes>
         <Route exact path='/' element={<AllMeetupsPage/>} />
-        <Route exact path='new-meetups' element={<NewMeetupPage/>} />
-        <Route exact path='favorites' element={<FavoritesPage/>} />
+        <Route exact path='/new-meetups' element={<NewMeetupPage/>} />
+        <Route exact path='/favorites' element={<FavoritesPage/>} />
       </Routes>
     </Layout>
   );
