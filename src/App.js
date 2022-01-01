@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<AllMeetupsPage/>} />
+        <Route path='/' element={<AllMeetupsPage/>} />
         <Route path='new-meetups' element={<NewMeetupPage/>} />
         <Route path='favorites' element={<FavoritesPage/>} />
       </Routes>
